@@ -1,0 +1,23 @@
+.Footer 
+{
+    text-align: center;
+    background-color: #526075;
+}
+
+.BackToTop 
+{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    background-color: #576882;
+}
+
+.backToTop:hover 
+{
+    background-color: #7586a1;
+}
+
+.FooterTable
+{
+
+}

@@ -1,21 +1,24 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React,{Component} from 'react';
+//import 'ANY NAME' from './[folder/file]'; //import all component js files to App, no ext required
+//import [image] from './.jpg';
+import './CSS/App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
+class App extends Component
+{
+    state = {} //include all var/obj with comma, mention with this.state.[name]
+    Handler = ()=>
+    {
+        this.setState({}) //only way to change var/obj inside, mention one to replace & rest is kept intact
+    }
+    render()
+    {
+        return
+        (
+            <div className="App">
+                //JSX code
+            </div>
+        );
+    }
 }
 
 export default App;
