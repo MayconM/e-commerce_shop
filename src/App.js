@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 //import 'ANY NAME' from './[folder/file]'; //import all component js files to App, no ext required
 //import [image] from './.jpg';
 import './CSS/App.css';
+import Footer from './Footer';
 
 class App extends Component
 {
@@ -12,10 +13,9 @@ class App extends Component
     }
     render()
     {
-        return
-        (
+        return(
             <div className="App">
-                //JSX code
+                <Footer />
             </div>
         );
     }
